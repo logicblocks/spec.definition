@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition.collection "0.0.1-RC1"
+(defproject io.logicblocks/spec.definition.collection "0.0.1-RC2"
   :description "clojure.spec definitions for collection data types."
 
   :parent-project {:path    "../parent/project.clj"

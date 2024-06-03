@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition "0.0.1-RC1"
+(defproject io.logicblocks/spec.definition "0.0.1-RC2"
   :description "Aggregate project for all spec.definition modules."
 
   :parent-project {:path    "parent/project.clj"

@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition.core "0.0.1-RC1"
+(defproject io.logicblocks/spec.definition.core "0.0.1-RC2"
   :description
   "A support library for clojure.spec definitions for common data types."
 

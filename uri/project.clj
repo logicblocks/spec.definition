@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition.uri "0.0.1-RC1"
+(defproject io.logicblocks/spec.definition.uri "0.0.1-RC2"
   :description "clojure.spec definitions for URI data types."
 
   :parent-project {:path    "../parent/project.clj"
