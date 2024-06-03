@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition.phone "0.0.1-RC0"
+(defproject io.logicblocks/spec.definition.phone "0.0.1-RC1"
   :description "Utility functions for telephony data types."
 
   :parent-project {:path    "../parent/project.clj"

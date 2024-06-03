@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition "0.0.1-RC0"
+(defproject io.logicblocks/spec.definition "0.0.1-RC1"
   :description "Aggregate project for all spec.definition modules."
 
   :parent-project {:path    "parent/project.clj"
@@ -83,7 +83,7 @@
      ["sub" "change" "version" "leiningen.release/bump-version" "release"]
      ["vcs" "commit" "Pre-release version %s [skip ci]"]
      ["vcs" "tag"]
-     ["sub" "-s" "core:string:address:bool:collection:currency:email:network:phone:time:uri:uuid:." "deploy"]]}
+     ["sub" "-s" "core:string:address:bool:collection:currency:email:number:phone:time:uri:uuid:." "deploy"]]}
 
    :release
    {:release-tasks
@@ -97,7 +97,7 @@
      ["shell" "git" "add" "."]
      ["vcs" "commit" "Release version %s [skip ci]"]
      ["vcs" "tag"]
-     ["sub" "-s" "core:testing:string:address:bool:collection:currency:domain:email:network:number:phone:time:uri:uuid:." "deploy"]
+     ["sub" "-s" "core:string:address:bool:collection:currency:email:number:phone:time:uri:uuid:." "deploy"]
      ["sub" "change" "version" "leiningen.release/bump-version" "patch"]
      ["sub" "change" "version" "leiningen.release/bump-version" "rc"]
      ["sub" "change" "version" "leiningen.release/bump-version" "release"]

@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition.bool "0.0.1-RC0"
+(defproject io.logicblocks/spec.definition.bool "0.0.1-RC1"
   :description "clojure.spec definitions for the boolean data type."
 
   :parent-project {:path    "../parent/project.clj"
