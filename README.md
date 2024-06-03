@@ -1,18 +1,18 @@
-# spec.validate
+# spec.definition
 
-A clojure.spec based validation library.
+clojure.spec definitions for various datatypes.
 
 ## Install
 
 Add the following to your `project.clj` file:
 
 ```clj
-[io.logicblocks/spec.validate "0.2.0-RC0"]
+[io.logicblocks/spec.definition "0.2.0-RC0"]
 ```
 
 ## Documentation
 
-* [API Docs](http://logicblocks.github.io/spec.validate)
+* [API Docs](http://logicblocks.github.io/spec.definition)
 
 ## Usage
 

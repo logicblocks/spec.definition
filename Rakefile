@@ -13,9 +13,12 @@ require 'yaml'
 
 task default: %i[
   build:code:fix
+  library:initialise
   library:check
   library:test:unit
 ]
+
+RubyLeiningen::Commands.define_custom_command('install')
 
 RakeLeiningen.define_installation_tasks(
   version: '2.11.2'
@@ -78,7 +81,7 @@ namespace :keys do
         name_prefix: 'gpg',
         owner_name: 'LogicBlocks Maintainers',
         owner_email: 'maintainers@logicblocks.io',
-        owner_comment: 'spec.validate CI Key'
+        owner_comment: 'spec.definition CI Key'
       )
     end
 
@@ -119,7 +122,7 @@ end
 
 RakeCircleCI.define_project_tasks(
   namespace: :circle_ci,
-  project_slug: 'github/logicblocks/spec.validate'
+  project_slug: 'github/logicblocks/spec.definition'
 ) do |t|
   circle_ci_config =
     YAML.load_file('config/secrets/circle_ci/config.yaml')
@@ -141,7 +144,7 @@ end
 
 RakeGithub.define_repository_tasks(
   namespace: :github,
-  repository: 'logicblocks/spec.validate'
+  repository: 'logicblocks/spec.definition'
 ) do |t|
   github_config =
     YAML.load_file('config/secrets/github/config.yaml')
@@ -178,6 +181,11 @@ namespace :build do
 end
 
 namespace :library do
+  desc 'Initialise all modules in the local maven repository'
+  task initialise: [:'leiningen:ensure'] do
+    RubyLeiningen.install
+  end
+
   RakeLeiningen.define_check_tasks(fix: true)
 
   namespace :test do
