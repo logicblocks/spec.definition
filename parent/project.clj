@@ -26,28 +26,28 @@
    "snapshots" {:url "https://repo.clojars.org" :creds :gpg}}
 
   :managed-dependencies
-  [[org.clojure/clojure "1.11.1"]
+  [[org.clojure/clojure "1.11.3"]
    [org.clojure/test.check "1.1.1"]
 
-   [io.logicblocks/icu4clj "0.0.1-RC2"]
+   [io.logicblocks/icu4clj "0.0.1-RC3"]
 
-   [io.logicblocks/datatype.core "0.0.1-RC8"]
-   [io.logicblocks/datatype.testing "0.0.1-RC8"]
-   [io.logicblocks/datatype.address "0.0.1-RC8"]
-   [io.logicblocks/datatype.bool "0.0.1-RC8"]
-   [io.logicblocks/datatype.collection "0.0.1-RC8"]
-   [io.logicblocks/datatype.currency "0.0.1-RC8"]
-   [io.logicblocks/datatype.domain "0.0.1-RC8"]
-   [io.logicblocks/datatype.email "0.0.1-RC8"]
-   [io.logicblocks/datatype.network "0.0.1-RC8"]
-   [io.logicblocks/datatype.number "0.0.1-RC8"]
-   [io.logicblocks/datatype.phone "0.0.1-RC8"]
-   [io.logicblocks/datatype.string "0.0.1-RC8"]
-   [io.logicblocks/datatype.time "0.0.1-RC8"]
-   [io.logicblocks/datatype.uri "0.0.1-RC8"]
-   [io.logicblocks/datatype.uuid "0.0.1-RC8"]
+   [io.logicblocks/datatype.core "0.0.1-RC10"]
+   [io.logicblocks/datatype.testing "0.0.1-RC10"]
+   [io.logicblocks/datatype.address "0.0.1-RC10"]
+   [io.logicblocks/datatype.bool "0.0.1-RC10"]
+   [io.logicblocks/datatype.collection "0.0.1-RC10"]
+   [io.logicblocks/datatype.currency "0.0.1-RC10"]
+   [io.logicblocks/datatype.domain "0.0.1-RC10"]
+   [io.logicblocks/datatype.email "0.0.1-RC10"]
+   [io.logicblocks/datatype.network "0.0.1-RC10"]
+   [io.logicblocks/datatype.number "0.0.1-RC10"]
+   [io.logicblocks/datatype.phone "0.0.1-RC10"]
+   [io.logicblocks/datatype.string "0.0.1-RC10"]
+   [io.logicblocks/datatype.time "0.0.1-RC10"]
+   [io.logicblocks/datatype.uri "0.0.1-RC10"]
+   [io.logicblocks/datatype.uuid "0.0.1-RC10"]
 
-   [io.logicblocks/spec.validate "0.2.0-RC20"]
+   [io.logicblocks/spec.validate "0.2.0-RC21"]
 
    [io.logicblocks/spec.definition.core :project/version]
    [io.logicblocks/spec.definition.address :project/version]
@@ -66,14 +66,14 @@
 
    [com.widdindustries/cljc.java-time "0.1.21"]
 
-   [nrepl "1.1.1"]
+   [nrepl "1.1.2"]
 
    [eftest "0.6.0"]
 
    [vlaaad/reveal "1.3.282"]
 
-   [com.github.flow-storm/clojure "1.11.2-4"]
-   [com.github.flow-storm/flow-storm-dbg "3.15.1"]]
+   [com.github.flow-storm/clojure "1.11.3-1"]
+   [com.github.flow-storm/flow-storm-dbg "3.15.5"]]
 
   :profiles
   {:parent-shared
