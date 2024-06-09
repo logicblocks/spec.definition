@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition.address "0.0.1-RC2"
+(defproject io.logicblocks/spec.definition.address "0.0.1-RC3"
   :description "clojure.spec definitions for address data types."
 
   :parent-project {:path    "../parent/project.clj"

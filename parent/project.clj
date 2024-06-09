@@ -1,4 +1,4 @@
-(defproject io.logicblocks/spec.definition.parent "0.0.1-RC2"
+(defproject io.logicblocks/spec.definition.parent "0.0.1-RC3"
   :scm {:dir  "."
         :name "git"
         :url  "https://github.com/logicblocks/spec.definition"}
